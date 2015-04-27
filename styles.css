@@ -1,6 +1,25 @@
+.kicker {
+	color: #006AA4;
+	font-family: Helvetica;
+	font-size: 16px;
+	
+}
+
 .headline {
-	font: Helvetica;
+	font-family: Helvetica;
 	color: #333333;
 	font-weight: bold;
 	font-size: 34px;
+}
+
+.byline {
+	font-family: Helvetica;
+	color: #168dd9;
+	font-size: 12px;
+}
+
+#story {
+	font-family: Georgia;
+	color: #4c4c4c;
+	font-size: 20px;
 }
