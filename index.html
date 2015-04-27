@@ -6,6 +6,8 @@
 
 		<!-- Optional theme -->
 		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap-theme.min.css">
+		<script type="text/javascript" src="https://www.google.com/jsapi?autoload={'modules':[{'name':'visualization','version':'1','packages':['corechart']}]}"></script>
+		<script type="text/javascript" src="scripts.js"></script>
 		<link rel="stylesheet" type="text/css" href="styles.css">
 		<title>HTML</title>
 
@@ -14,16 +16,7 @@
 	<body>
 		<div class="container-fluid">
 
-			<div class="row">
-				<!--This is the row with my chart-->
-
-				<!--Div that will hold the chart-->
-				<!--When the screen size is medium I want this div to occupy the full width of the screen-->
-				<div class="col-md-12" id="chart_div"></div>
-
-			</div>
-
-				<!--This is the row with my filler image of a nav bar-->
+			<!--This is the row with my filler image of a nav bar-->
 			<div class="row">
 				<div class="image">
 					<div class="col-md-12"><img src="quartz.png">
@@ -126,6 +119,14 @@
 				<div class="col-md-2"></div>
 			</div>
 			<br>
+			<div class="row">
+				<!--This is the row with my chart-->
+
+				<!--Div that will hold the chart-->
+				<!--When the screen size is medium I want this div to occupy the full width of the screen-->
+				<div class="col-md-12" id="chart_div"></div>
+
+			</div>
 			<div id="story" class="row">
 				<div class="col-md-4"></div>
 				<div class="col-md-6">
